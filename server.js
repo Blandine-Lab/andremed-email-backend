@@ -14,7 +14,7 @@ const FROM_NAME = 'Andremed Medical';
 app.post('/api/send-emails', async (req, res) => {
   const { recipients, subject, message, adminPassword } = req.body;
 
-  if (adminPassword !== 'admin123') {
+  if (adminPassword !== '@M@thurkayo219901990@@@@1') {
     return res.status(401).json({ error: 'Mot de passe administrateur invalide.' });
   }
   if (!recipients || !recipients.length) {
