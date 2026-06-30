@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -18,3 +19,22 @@
     "nodemon": "^3.1.4"
   }
 }
+=======
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.7"
+  }
+}
+>>>>>>> cf2a31b7295ac65cceb32f810c6c6cdd1bcdf027
